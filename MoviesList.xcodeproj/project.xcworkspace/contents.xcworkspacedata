@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:/Users/elina.zambere/Desktop/BootCamp files/iOSBootcamp/Xcode/XCode Home/MoviesList/MoviesList/Controllers/Assets.xcassets"
+      name = "Assets.xcassets">
+      <FileRef
+         location = "group:../../../Media.xcassets">
+      </FileRef>
+      <FileRef
+         location = "group:Assets.xcassets">
+      </FileRef>
+      <Group
+         location = "group:Harry Potter and Deathly Hallows part 1.imageset"
+         name = "Harry Potter and Deathly Hallows part 1.imageset">
+         <FileRef
+            location = "group:Harry Potter and Deathly Hallows part 1.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Star Wars Episode 5 Empire Strikes Back.imageset"
+         name = "Star Wars Episode 5 Empire Strikes Back.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Star Wars Episode 5 Empire Strikes Back.jpg">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Joker.imageset"
+         name = "Joker.imageset">
+         <FileRef
+            location = "group:Joker.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AccentColor.colorset"
+         name = "AccentColor.colorset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+      <Group
+         location = "group:Pirates Of The Caribbean The curse of Black Pearl.imageset"
+         name = "Pirates Of The Caribbean The curse of Black Pearl.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Pirates Of The Caribbean The curse of Black Pearl.jpg">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Star Wars Episode 4 A New Nope.imageset"
+         name = "Star Wars Episode 4 A New Nope.imageset">
+         <FileRef
+            location = "group:Star Wars Episode 4 A New Nope.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Harry Potter and Goblet Of Fire.imageset"
+         name = "Harry Potter and Goblet Of Fire.imageset">
+         <FileRef
+            location = "group:Harry Potter and Goblet Of Fire.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Star Wars Episode 6 Return Of The Jedi.imageset"
+         name = "Star Wars Episode 6 Return Of The Jedi.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Star Wars Episode 6 Return Of The Jedi.jpg">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pirates Of The Caribbean At Worlds End.imageset"
+         name = "Pirates Of The Caribbean At Worlds End.imageset">
+         <FileRef
+            location = "group:Pirates Of The Caribbean At Worlds End.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Harry Potter and Deathly Hallows part 2.imageset"
+         name = "Harry Potter and Deathly Hallows part 2.imageset">
+         <FileRef
+            location = "group:Harry Potter and Deathly Hallows part 2.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
