@@ -50,6 +50,7 @@
                                                 </constraints>
                                                 <connections>
                                                     <action selector="LightAction:" destination="kSi-k2-iOp" eventType="valueChanged" id="REv-y5-Zci"/>
+                                                    <action selector="lightTnemePressed:" destination="kSi-k2-iOp" eventType="valueChanged" id="iSR-g3-5Jt"/>
                                                 </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="if9-Es-0yG">
@@ -59,6 +60,7 @@
                                                 </constraints>
                                                 <connections>
                                                     <action selector="DarkAction:" destination="kSi-k2-iOp" eventType="valueChanged" id="xRY-Be-E1I"/>
+                                                    <action selector="darkThemePressed:" destination="kSi-k2-iOp" eventType="valueChanged" id="JoJ-Gx-tch"/>
                                                 </connections>
                                             </switch>
                                         </subviews>

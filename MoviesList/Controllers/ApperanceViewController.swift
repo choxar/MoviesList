@@ -14,18 +14,25 @@ class ApperanceViewController: UIViewController {
     @IBOutlet weak var DarkSwitch: UISwitch!
     @IBOutlet weak var LightSwitch: UISwitch!
     
+    let defaults = UserDefaults.standard
+    
     let window = UIApplication.shared.keyWindow
     
     override func viewDidLoad() {
         super.viewDidLoad()
         detectMode()
-        
-        //let DarkDefault = UserDefaults.standard
-        //DarkOn = DarkDefault.bool(forKey: "DarkDefault")
-        
-        //let LightDefault = UserDefaults.standard
-        //LightOn = LightDefault.bool(forKey: "LightDefault")
 
+        if let darkSwitch = defaults.value(forKey: "DarkSwitch") {
+            
+            DarkSwitch.isOn = darkSwitch as! Bool
+            
+        }
+        
+        if let lightSwitch = defaults.value(forKey: "LightSwitch") {
+            
+            LightSwitch.isOn = lightSwitch as! Bool
+            
+        }
         
     }
     
@@ -44,31 +51,33 @@ class ApperanceViewController: UIViewController {
     }
     
     
-    @IBAction func DarkAction(_ sender: Any) {
+    @IBAction func DarkAction(_ sender: UISwitch) {
         DarkSwitch.isOn = true
         LightSwitch.isOn = false
         window?.overrideUserInterfaceStyle = .dark
-        
-       // let DarkDefault = UserDefaults.standard
-        //DarkDefault.set(true, forKey: "DarkDefault")
-        
-        //let LightDefault = UserDefaults.standard
-        //LightDefault.set(false, forKey: "LightDefault")
-        
-    }
+        defaults.set(sender.isOn, forKey: "DarkSwitch")
+        }
     
-    @IBAction func LightAction(_ sender: Any) {
+    @IBAction func LightAction(_ sender: UISwitch) {
         DarkSwitch.isOn = false
         LightSwitch.isOn = true
         window?.overrideUserInterfaceStyle = .light
+        defaults.set(sender.isOn, forKey: "LightSwitch")
+        }
+    
+    @IBAction func lightTnemePressed(_ sender: UISwitch) {
         
-        //let DarkDefault = UserDefaults.standard
-        //DarkDefault.set(false, forKey: "DarkDefault")
+        defaults.set(sender.isOn, forKey: "LightSwitch")
         
-        //let LightDefault = UserDefaults.standard
-        //LightDefault.set(true, forKey: "LightDefault")
     }
     
-   
+    @IBAction func darkThemePressed(_ sender: UISwitch) {
+        
+        defaults.set(sender.isOn, forKey: "DarkSwitch")
+
+        
+    }
+    
 }
+
 
