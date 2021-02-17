@@ -56,6 +56,7 @@ class ApperanceViewController: UIViewController {
         LightSwitch.isOn = false
         window?.overrideUserInterfaceStyle = .dark
         defaults.set(sender.isOn, forKey: "DarkSwitch")
+        defaults.removeObject(forKey: "LightSwitch")
         }
     
     @IBAction func LightAction(_ sender: UISwitch) {
@@ -63,21 +64,11 @@ class ApperanceViewController: UIViewController {
         LightSwitch.isOn = true
         window?.overrideUserInterfaceStyle = .light
         defaults.set(sender.isOn, forKey: "LightSwitch")
+        defaults.removeObject(forKey: "DarkSwitch")
         }
-    
-    @IBAction func lightTnemePressed(_ sender: UISwitch) {
-        
-        defaults.set(sender.isOn, forKey: "LightSwitch")
-        
-    }
-    
-    @IBAction func darkThemePressed(_ sender: UISwitch) {
-        
-        defaults.set(sender.isOn, forKey: "DarkSwitch")
 
-        
-    }
     
 }
+
 
 
